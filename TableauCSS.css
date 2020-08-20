@@ -1,0 +1,27 @@
+table{
+    border-collapse: collapse;
+}
+td ,th,caption{
+    
+    border:1px solid black;
+    text-align: center;
+}
+tbody tr th{
+    background-color:rgb(211, 211, 211);
+}
+tbody :nth-child(odd) td{
+    background-color: rgb(161, 217, 230);
+}
+tbody :nth-child(even) td{
+    background-color: rgb(108, 240, 143);
+}
+tFoot{
+    font: italic;
+    background-color: rgb(255, 255, 255);
+}
+caption{
+   
+    background-color: rgb(211, 211, 211);
+}
+
+
